@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agent-reach": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@bsbofmusic/agent-reach-mcp"
+      ]
+    }
+  }
+}
