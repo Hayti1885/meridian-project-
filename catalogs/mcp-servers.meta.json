@@ -1,0 +1,15 @@
+{
+  "catalog": "mcp-servers",
+  "source": "https://github.com/punkpeye/awesome-mcp-servers",
+  "entries": 3356,
+  "categories": 56,
+  "columns": [
+    "category",
+    "name",
+    "url",
+    "flags",
+    "install",
+    "description"
+  ],
+  "built_at": "2026-08-25T11:36:11Z"
+}
