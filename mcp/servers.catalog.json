@@ -1,0 +1,103 @@
+{
+  "$comment": [
+    "Vetted, ready-to-register MCP server blocks drawn from punkpeye/awesome-mcp-servers.",
+    "Nothing here is active until you register it: scripts/mcp-register.py add <id> merges an",
+    "entry's `config` into .mcp.json. Entries listing `env` need those variables set first.",
+    "The full 3356-server index lives in catalogs/mcp-servers.tsv - query it with",
+    "scripts/catalog.py, then use scripts/mcp-register.py block to generate a block for",
+    "anything not pre-vetted here."
+  ],
+  "servers": {
+    "filesystem": {
+      "description": "Read and write files under explicitly allowed directories.",
+      "upstream": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "official": true,
+      "env": [],
+      "notes": "Replace the trailing path arguments with the directories you want exposed. Only listed directories are reachable.",
+      "config": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "${PWD}"]
+      }
+    },
+    "git": {
+      "description": "Read, search, and inspect the history of a local git repository.",
+      "upstream": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "official": true,
+      "env": [],
+      "notes": "Point --repository at the repo you want exposed.",
+      "config": {
+        "command": "uvx",
+        "args": ["mcp-server-git", "--repository", "${PWD}"]
+      }
+    },
+    "fetch": {
+      "description": "Fetch a URL and convert the page to markdown for the model to read.",
+      "upstream": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+      "official": true,
+      "env": [],
+      "notes": "Useful when you want page content without a full browser.",
+      "config": {
+        "command": "uvx",
+        "args": ["mcp-server-fetch"]
+      }
+    },
+    "memory": {
+      "description": "Persistent knowledge-graph memory across sessions.",
+      "upstream": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+      "official": true,
+      "env": [],
+      "notes": "Stores to a local JSON file; set MEMORY_FILE_PATH to relocate it.",
+      "config": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-memory"]
+      }
+    },
+    "sequential-thinking": {
+      "description": "Structured step-by-step reasoning scratchpad.",
+      "upstream": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+      "official": true,
+      "env": [],
+      "notes": "No credentials, no network access of its own.",
+      "config": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+      }
+    },
+    "playwright": {
+      "description": "Drive a real browser: navigate, click, fill forms, screenshot, extract.",
+      "upstream": "https://github.com/microsoft/playwright-mcp",
+      "official": true,
+      "env": [],
+      "notes": "The natural pairing with the easyspider skill when a scrape needs a headed browser rather than a saved EasySpider task.",
+      "config": {
+        "command": "npx",
+        "args": ["-y", "@playwright/mcp@latest"]
+      }
+    },
+    "postgres": {
+      "description": "Query and inspect a PostgreSQL database.",
+      "upstream": "https://github.com/crystaldba/postgres-mcp",
+      "official": false,
+      "env": ["DATABASE_URI"],
+      "notes": "Pairs with a free Postgres tier found via the free-infra skill (Neon, Supabase, Prisma Postgres).",
+      "config": {
+        "command": "uvx",
+        "args": ["postgres-mcp", "--access-mode=restricted"],
+        "env": {
+          "DATABASE_URI": "${DATABASE_URI}"
+        }
+      }
+    },
+    "sqlite": {
+      "description": "Query a local SQLite database file.",
+      "upstream": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
+      "official": false,
+      "env": [],
+      "notes": "Handy for querying scraped data that EasySpider exported. Point --db-path at your file.",
+      "config": {
+        "command": "uvx",
+        "args": ["mcp-server-sqlite", "--db-path", "./data.db"]
+      }
+    }
+  }
+}

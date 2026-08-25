@@ -1,0 +1,9 @@
+# EasySpider source clone + venv created by scripts/install-easyspider.sh
+vendor/
+
+# Strix scan output — findings and PoCs, not for committing
+strix_runs/
+
+__pycache__/
+*.pyc
+.venv/

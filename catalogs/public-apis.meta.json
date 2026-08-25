@@ -1,0 +1,16 @@
+{
+  "catalog": "public-apis",
+  "source": "https://github.com/public-apis/public-apis",
+  "entries": 1609,
+  "categories": 51,
+  "columns": [
+    "category",
+    "name",
+    "url",
+    "description",
+    "auth",
+    "https",
+    "cors"
+  ],
+  "built_at": "2026-08-25T11:36:11Z"
+}

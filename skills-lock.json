@@ -6,6 +6,41 @@
       "sourceType": "github",
       "skillPath": "agent_reach/skill/SKILL.md",
       "computedHash": "7887c5920f15988d7c4a9aa3b0b439332a30120e7b52169fd3eee851c3e20da6"
+    },
+    "easyspider": {
+      "source": "NaiboWang/EasySpider",
+      "sourceType": "github",
+      "derived": true,
+      "skillPath": ".agents/skills/easyspider/SKILL.md",
+      "computedHash": "a8b6750e8819dd6e54c57e4d181f7594a69c9c7f38e1e71eaf76b5bab7ae9c2b"
+    },
+    "free-infra": {
+      "source": "ripienaar/free-for-dev",
+      "sourceType": "github",
+      "derived": true,
+      "skillPath": ".agents/skills/free-infra/SKILL.md",
+      "computedHash": "79572c40256d01a73df32f04ba2688c75d620ecb9f5630688443a099f3f3721d"
+    },
+    "mcp-servers": {
+      "source": "punkpeye/awesome-mcp-servers",
+      "sourceType": "github",
+      "derived": true,
+      "skillPath": ".agents/skills/mcp-servers/SKILL.md",
+      "computedHash": "c9183e10d357ec4680be8cdb4b36acfb4ccecc9646ee6f6e4c5632786b522308"
+    },
+    "public-apis": {
+      "source": "public-apis/public-apis",
+      "sourceType": "github",
+      "derived": true,
+      "skillPath": ".agents/skills/public-apis/SKILL.md",
+      "computedHash": "7e27d1f4a07cd5466b7c0f09cc80b151d98daf604afa965042958a13d91c3436"
+    },
+    "strix-pentest": {
+      "source": "usestrix/strix",
+      "sourceType": "github",
+      "derived": true,
+      "skillPath": ".agents/skills/strix-pentest/SKILL.md",
+      "computedHash": "586731f4068612964f12f89aaf0e60a5d958b969cdb45cc6f48fd2eb5c51b302"
     }
   }
 }

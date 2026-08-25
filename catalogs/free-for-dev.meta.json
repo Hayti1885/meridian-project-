@@ -1,0 +1,13 @@
+{
+  "catalog": "free-for-dev",
+  "source": "https://github.com/ripienaar/free-for-dev",
+  "entries": 1232,
+  "categories": 57,
+  "columns": [
+    "category",
+    "name",
+    "url",
+    "notes"
+  ],
+  "built_at": "2026-08-25T11:36:11Z"
+}
