@@ -16,9 +16,9 @@ instead of as a punchline. (Confirmed by Robenson.)
 A dedicated soccer channel. Haiti football only: match previews, match reactions, team history,
 players, and the road through the Nations League and the World Cup.
 
-Channel name: TODO, top pick "Ayiti Ball" (@AyitiBall). Backups: 1804 Futbol, Grenadiers Talk,
-Haiti Ball Talk. If a name uses "Grenadiers", the About page says "Fan channel, not affiliated
-with the FHF".
+Channel name: 1804 Futbol (handle @1804Futbol, same on YouTube, TikTok and Instagram). 1804 is the
+year of Haitian independence. Say it in the first videos so new viewers learn the meaning. The
+About page says "Fan channel, not affiliated with the FHF".
 
 Family, legacy and real estate content stays off this channel.
 
