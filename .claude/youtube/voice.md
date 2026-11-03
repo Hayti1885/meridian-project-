@@ -13,13 +13,14 @@ instead of as a punchline. (Confirmed by Robenson.)
 
 ## What the channel covers
 
-1. Haiti football: match reactions, team history, the road to the World Cup. This leads.
-2. Family and legacy: life as a Haitian-American father of four, building for the next generation.
-3. Real estate tips: home buying help for families, told through the same lens of stability and
-   legacy.
+A dedicated soccer channel. Haiti football only: match previews, match reactions, team history,
+players, and the road through the Nations League and the World Cup.
 
-Every video should still speak to the football fan above. Family and real estate content works
-when it ties back to pride, heritage and building something that lasts.
+Channel name: TODO, top pick "Ayiti Ball" (@AyitiBall). Backups: 1804 Futbol, Grenadiers Talk,
+Haiti Ball Talk. If a name uses "Grenadiers", the About page says "Fan channel, not affiliated
+with the FHF".
+
+Family, legacy and real estate content stays off this channel.
 
 ## How I actually talk
 
@@ -53,14 +54,13 @@ use, or how you greet the audience.
 - Quotes from players, coaches or officials I cannot verify
 - Inside information about the team or federation
 - Results or numbers for my channel or music that are not real
-- Real estate: no promised prices, appreciation or returns, and no legal, tax or loan advice.
-  Check every real estate video against my brokerage's advertising rules before it goes up.
+- Match footage, logos or music I do not have the rights to use
 
 ## My format
 
 - Music content: sung lyrics only, no spoken-word sections
 - Languages: English, Haitian Creole, French, Spanish
-- Themes: Haitian national team, the World Cup, national pride, family, legacy
+- Themes: Haitian national team, the Nations League, the World Cup, national pride
 
 - Length: Shorts first, under 60 seconds, vertical
 - On camera: a mix. On camera for reactions and personal moments, voiceover over footage for
