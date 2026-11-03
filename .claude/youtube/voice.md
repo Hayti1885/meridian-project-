@@ -9,9 +9,17 @@ stays empty until real transcripts go in. Replace each TODO with your own words.
 
 One person: a Haitian or Haitian-American fan, 18 to 40, who follows the Haitian national team,
 feels the pride when the flag goes up, and wants content that treats Haiti's story with weight
-instead of as a punchline.
+instead of as a punchline. (Confirmed by Robenson.)
 
-TODO: confirm or replace. Name the one viewer you picture when you record.
+## What the channel covers
+
+1. Haiti football: match reactions, team history, the road to the World Cup. This leads.
+2. Family and legacy: life as a Haitian-American father of four, building for the next generation.
+3. Real estate tips: home buying help for families, told through the same lens of stability and
+   legacy.
+
+Every video should still speak to the football fan above. Family and real estate content works
+when it ties back to pride, heritage and building something that lasts.
 
 ## How I actually talk
 
@@ -45,6 +53,8 @@ use, or how you greet the audience.
 - Quotes from players, coaches or officials I cannot verify
 - Inside information about the team or federation
 - Results or numbers for my channel or music that are not real
+- Real estate: no promised prices, appreciation or returns, and no legal, tax or loan advice.
+  Check every real estate video against my brokerage's advertising rules before it goes up.
 
 ## My format
 
@@ -52,4 +62,9 @@ use, or how you greet the audience.
 - Languages: English, Haitian Creole, French, Spanish
 - Themes: Haitian national team, the World Cup, national pride, family, legacy
 
-TODO: video length, how a video opens, intro or no intro, on camera or not, setting.
+- Length: Shorts first, under 60 seconds, vertical
+- On camera: a mix. On camera for reactions and personal moments, voiceover over footage for
+  history and explainers
+- Opening: no intro. The hook is the first line, said in the first 2 seconds
+
+TODO: setting (where you record), and whether you swear on camera.
