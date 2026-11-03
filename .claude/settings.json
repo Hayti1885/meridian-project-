@@ -336,5 +336,5 @@
       }
     ]
   },
-  "includeCoAuthoredBy": false
+  "includeCoAuthoredBy": true
 }
